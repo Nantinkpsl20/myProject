@@ -1,3 +1,9 @@
 body{
     color: white;
+    background-color: #e372ff;
+}
+
+div{
+     background-color: #e372ff;
+    border: solid 2px white;
 }

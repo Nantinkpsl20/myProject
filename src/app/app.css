@@ -1,5 +1,8 @@
 div{
-    height: 300px;
+    padding-top: 5px;
+    left: 25%;
+    position: relative;
+    height: 340px;
     width: 50%;
     background-color: blue;
     color: white;
