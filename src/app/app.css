@@ -1,0 +1,11 @@
+div{
+    height: 300px;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+

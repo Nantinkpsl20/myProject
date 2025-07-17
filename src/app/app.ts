@@ -1,12 +1,14 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import{Child} from './child/child';
+import {Child2} from './child2/child2';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [ Child, Child2 ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('myProject');
+   newWordOfTheDay = "tiger"; //property
+   secWord="world";
 }
